@@ -1,0 +1,193 @@
+body {
+		margin: 0;
+		padding: 0;
+    font-family: 'Arial', serif;
+}
+
+
+
+.nav {
+	position: sticky;
+	top: 0;
+	left: 0;
+  background-color: #000000;
+  color: #ffffff;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.nav > li {
+	list-style-type: none;
+  display: inline-block;
+  padding-right: 50px;
+  font-size: 12px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+.nav > li > a:hover {
+  color: #ffffff;
+}
+
+.logo {
+  color: #ffffff;
+  float: left;
+  padding-left: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+.social1 {
+	width: 25%;
+	height: 80%;
+	max-width: inherit;
+	max-height: inherit;
+	margin: 0px;
+	align: center;
+	float: left;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.social1 > p {
+	font-size: 14px;
+	color: #636363;
+}
+
+.socials {
+	margin: 0px;
+	padding-top: 10px;
+	width: 100%;
+	height: 50%;
+	background-color: rgba(153, 204, 255, 1);
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #636363;
+
+}
+
+.image {
+	height: 42%;
+	width: 28%;
+	margin: 0px;
+}
+
+.social_heading {
+	text-align: center;
+	font-size: 36px;
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.image:hover {
+	opacity: 0.2;
+	margin-top: 15px;
+}
+
+.projects {
+		background-color: rgba(153, 204, 255, 1);
+		padding-top: 10px;
+		margin: 0px;
+}
+
+.project {
+	width: 100%;
+	margin: 0px;
+	height: 35%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.projects_heading {
+	text-align: center;
+	font-size: 36px;
+	color: #000000;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.project > .project_heading {
+	text-align: right;
+	margin: 0 50px 0 0;
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.project > .project_heading > a {
+	text-decoration-line: underline;
+	color: #000000;
+}
+
+.project > .project_heading > a:hover {
+	opacity: 0.2;
+}
+
+.project > .project_text {
+	float: right;
+	height: inherit;
+	width: 80%;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.project > .project_image {
+	float: left;
+	height: auto;
+	align: center;
+	margin-left: 5%;
+	width: auto;
+}
+
+.about_me_image {
+	display: block;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #000;
+	margin: 0px auto;
+}
+
+.about_me_text {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px auto;
+	text-align: center;
+	width: 80%
+}
+
+.ab_heading {
+	text-align: center;
+	font-size: 36px;
+	color: #000000;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+.about_me {
+	background-color: #6699ff;
+	margin: 0px;
+}
